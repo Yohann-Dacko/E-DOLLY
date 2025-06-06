@@ -1,0 +1,86 @@
+[0.010s] Invoking command in '/home/chalin/dev_ws/build/e_dollyv2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/chalin/dev_ws/src/e_dollyv2 -DCMAKE_INSTALL_PREFIX=/home/chalin/dev_ws/install/e_dollyv2
+[0.095s] -- The C compiler identification is GNU 13.3.0
+[0.449s] -- The CXX compiler identification is GNU 13.3.0
+[0.926s] -- Detecting C compiler ABI info
+[1.175s] -- Detecting C compiler ABI info - done
+[1.184s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.184s] -- Detecting C compile features
+[1.186s] -- Detecting C compile features - done
+[1.279s] -- Detecting CXX compiler ABI info
+[1.478s] -- Detecting CXX compiler ABI info - done
+[1.485s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.486s] -- Detecting CXX compile features
+[1.486s] -- Detecting CXX compile features - done
+[1.489s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.610s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.716s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.820s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.822s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.822s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.823s] -- Added test 'lint_cmake' to check CMake code style
+[1.824s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.825s] -- Added test 'xmllint' to check XML markup files
+[1.827s] -- Configuring done (1.8s)
+[1.830s] -- Generating done (0.0s)
+[1.831s] -- Build files have been written to: /home/chalin/dev_ws/build/e_dollyv2
+[1.836s] Invoked command in '/home/chalin/dev_ws/build/e_dollyv2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/chalin/dev_ws/src/e_dollyv2 -DCMAKE_INSTALL_PREFIX=/home/chalin/dev_ws/install/e_dollyv2
+[1.837s] Invoking command in '/home/chalin/dev_ws/build/e_dollyv2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/chalin/dev_ws/build/e_dollyv2 -- -j8 -l8
+[1.866s] Invoked command in '/home/chalin/dev_ws/build/e_dollyv2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/chalin/dev_ws/build/e_dollyv2 -- -j8 -l8
+[1.874s] Invoking command in '/home/chalin/dev_ws/build/e_dollyv2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/chalin/dev_ws/build/e_dollyv2
+[1.884s] -- Install configuration: ""
+[1.884s] -- Installing: /home/chalin/dev_ws/install/e_dollyv2/share/e_dollyv2/config
+[1.884s] -- Installing: /home/chalin/dev_ws/install/e_dollyv2/share/e_dollyv2/config/nav2_params.yaml
+[1.884s] -- Installing: /home/chalin/dev_ws/install/e_dollyv2/share/e_dollyv2/config/gaz_ros2_ct_use_sim.yaml
+[1.884s] -- Installing: /home/chalin/dev_ws/install/e_dollyv2/share/e_dollyv2/config/my_controllers.yaml
+[1.885s] -- Installing: /home/chalin/dev_ws/install/e_dollyv2/share/e_dollyv2/config/gz_bridge.yaml
+[1.885s] -- Installing: /home/chalin/dev_ws/install/e_dollyv2/share/e_dollyv2/config/empty.yaml
+[1.885s] -- Installing: /home/chalin/dev_ws/install/e_dollyv2/share/e_dollyv2/config/map.rviz
+[1.885s] -- Installing: /home/chalin/dev_ws/install/e_dollyv2/share/e_dollyv2/config/ball_tracker_params_sim.yaml
+[1.885s] -- Installing: /home/chalin/dev_ws/install/e_dollyv2/share/e_dollyv2/config/drive_bot.rviz
+[1.885s] -- Installing: /home/chalin/dev_ws/install/e_dollyv2/share/e_dollyv2/config/mapper_params_online_async.yaml
+[1.885s] -- Installing: /home/chalin/dev_ws/install/e_dollyv2/share/e_dollyv2/config/view_bot.rviz
+[1.886s] -- Installing: /home/chalin/dev_ws/install/e_dollyv2/share/e_dollyv2/config/ball_tracker_params_robot.yaml
+[1.886s] -- Installing: /home/chalin/dev_ws/install/e_dollyv2/share/e_dollyv2/config/ekf.yaml
+[1.886s] -- Installing: /home/chalin/dev_ws/install/e_dollyv2/share/e_dollyv2/config/twist_mux.yaml
+[1.886s] -- Installing: /home/chalin/dev_ws/install/e_dollyv2/share/e_dollyv2/config/joystick.yaml
+[1.886s] -- Installing: /home/chalin/dev_ws/install/e_dollyv2/share/e_dollyv2/config/main.rviz
+[1.886s] -- Installing: /home/chalin/dev_ws/install/e_dollyv2/share/e_dollyv2/description
+[1.886s] -- Installing: /home/chalin/dev_ws/install/e_dollyv2/share/e_dollyv2/description/face.xacro
+[1.887s] -- Installing: /home/chalin/dev_ws/install/e_dollyv2/share/e_dollyv2/description/robot.urdf.xacro
+[1.887s] -- Installing: /home/chalin/dev_ws/install/e_dollyv2/share/e_dollyv2/description/inertial_macros.xacro
+[1.887s] -- Installing: /home/chalin/dev_ws/install/e_dollyv2/share/e_dollyv2/description/gazebo_control.xacro
+[1.887s] -- Installing: /home/chalin/dev_ws/install/e_dollyv2/share/e_dollyv2/description/ros2_control.xacro
+[1.887s] -- Installing: /home/chalin/dev_ws/install/e_dollyv2/share/e_dollyv2/description/robot_core.xacro
+[1.887s] -- Installing: /home/chalin/dev_ws/install/e_dollyv2/share/e_dollyv2/description/lidar.xacro
+[1.887s] -- Installing: /home/chalin/dev_ws/install/e_dollyv2/share/e_dollyv2/description/camera.xacro
+[1.887s] -- Installing: /home/chalin/dev_ws/install/e_dollyv2/share/e_dollyv2/description/depth_camera.xacro
+[1.888s] -- Installing: /home/chalin/dev_ws/install/e_dollyv2/share/e_dollyv2/launch
+[1.888s] -- Installing: /home/chalin/dev_ws/install/e_dollyv2/share/e_dollyv2/launch/ball_tracker.launch.py
+[1.888s] -- Installing: /home/chalin/dev_ws/install/e_dollyv2/share/e_dollyv2/launch/launch_sim.launch.py
+[1.888s] -- Installing: /home/chalin/dev_ws/install/e_dollyv2/share/e_dollyv2/launch/camera.launch.py
+[1.888s] -- Installing: /home/chalin/dev_ws/install/e_dollyv2/share/e_dollyv2/launch/rplidar.launch.py
+[1.888s] -- Installing: /home/chalin/dev_ws/install/e_dollyv2/share/e_dollyv2/launch/localization_launch.py
+[1.888s] -- Installing: /home/chalin/dev_ws/install/e_dollyv2/share/e_dollyv2/launch/rsp.launch.py
+[1.888s] -- Installing: /home/chalin/dev_ws/install/e_dollyv2/share/e_dollyv2/launch/launch_robot.launch.py
+[1.889s] -- Installing: /home/chalin/dev_ws/install/e_dollyv2/share/e_dollyv2/launch/navigation_launch.py
+[1.889s] -- Installing: /home/chalin/dev_ws/install/e_dollyv2/share/e_dollyv2/launch/joystick.launch.py
+[1.889s] -- Installing: /home/chalin/dev_ws/install/e_dollyv2/share/e_dollyv2/launch/online_async_launch.py
+[1.889s] -- Installing: /home/chalin/dev_ws/install/e_dollyv2/share/e_dollyv2/worlds
+[1.889s] -- Installing: /home/chalin/dev_ws/install/e_dollyv2/share/e_dollyv2/worlds/obstacles.world
+[1.889s] -- Installing: /home/chalin/dev_ws/install/e_dollyv2/share/e_dollyv2/worlds/empty.world
+[1.889s] -- Installing: /home/chalin/dev_ws/install/e_dollyv2/share/ament_index/resource_index/package_run_dependencies/e_dollyv2
+[1.889s] -- Installing: /home/chalin/dev_ws/install/e_dollyv2/share/ament_index/resource_index/parent_prefix_path/e_dollyv2
+[1.889s] -- Installing: /home/chalin/dev_ws/install/e_dollyv2/share/e_dollyv2/environment/ament_prefix_path.sh
+[1.890s] -- Installing: /home/chalin/dev_ws/install/e_dollyv2/share/e_dollyv2/environment/ament_prefix_path.dsv
+[1.890s] -- Installing: /home/chalin/dev_ws/install/e_dollyv2/share/e_dollyv2/environment/path.sh
+[1.890s] -- Installing: /home/chalin/dev_ws/install/e_dollyv2/share/e_dollyv2/environment/path.dsv
+[1.890s] -- Installing: /home/chalin/dev_ws/install/e_dollyv2/share/e_dollyv2/local_setup.bash
+[1.890s] -- Installing: /home/chalin/dev_ws/install/e_dollyv2/share/e_dollyv2/local_setup.sh
+[1.890s] -- Installing: /home/chalin/dev_ws/install/e_dollyv2/share/e_dollyv2/local_setup.zsh
+[1.890s] -- Installing: /home/chalin/dev_ws/install/e_dollyv2/share/e_dollyv2/local_setup.dsv
+[1.890s] -- Installing: /home/chalin/dev_ws/install/e_dollyv2/share/e_dollyv2/package.dsv
+[1.891s] -- Installing: /home/chalin/dev_ws/install/e_dollyv2/share/ament_index/resource_index/packages/e_dollyv2
+[1.891s] -- Installing: /home/chalin/dev_ws/install/e_dollyv2/share/e_dollyv2/cmake/e_dollyv2Config.cmake
+[1.891s] -- Installing: /home/chalin/dev_ws/install/e_dollyv2/share/e_dollyv2/cmake/e_dollyv2Config-version.cmake
+[1.891s] -- Installing: /home/chalin/dev_ws/install/e_dollyv2/share/e_dollyv2/package.xml
+[1.892s] Invoked command in '/home/chalin/dev_ws/build/e_dollyv2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/chalin/dev_ws/build/e_dollyv2
