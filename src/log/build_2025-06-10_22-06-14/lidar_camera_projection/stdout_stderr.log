@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing lidar_camera_projection.egg-info/PKG-INFO
+writing dependency_links to lidar_camera_projection.egg-info/dependency_links.txt
+writing entry points to lidar_camera_projection.egg-info/entry_points.txt
+writing requirements to lidar_camera_projection.egg-info/requires.txt
+writing top-level names to lidar_camera_projection.egg-info/top_level.txt
+reading manifest file 'lidar_camera_projection.egg-info/SOURCES.txt'
+writing manifest file 'lidar_camera_projection.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/chalin/dev_ws/src/install/lidar_camera_projection/lib/python3.12/site-packages/lidar-camera-projection.egg-link (link to .)
+Installing lidar_camera_projection script to /home/chalin/dev_ws/src/install/lidar_camera_projection/lib/lidar_camera_projection
+Installing object_detection_node script to /home/chalin/dev_ws/src/install/lidar_camera_projection/lib/lidar_camera_projection
+
+Installed /home/chalin/dev_ws/src/build/lidar_camera_projection
+running symlink_data

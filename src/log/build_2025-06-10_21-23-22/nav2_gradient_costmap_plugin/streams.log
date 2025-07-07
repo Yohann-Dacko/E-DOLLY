@@ -1,0 +1,61 @@
+[2.052s] Invoking command in '/home/chalin/dev_ws/src/build/nav2_gradient_costmap_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chalin/dev_ws/install/lidar_camera_projection:/opt/ros/jazzy /usr/bin/cmake /home/chalin/dev_ws/src/nav2_gradient_costmap_plugin -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin
+[2.695s] -- The C compiler identification is GNU 13.3.0
+[6.061s] -- The CXX compiler identification is GNU 13.3.0
+[8.366s] -- Detecting C compiler ABI info
+[10.023s] -- Detecting C compiler ABI info - done
+[10.113s] -- Check for working C compiler: /usr/bin/cc - skipped
+[10.114s] -- Detecting C compile features
+[10.115s] -- Detecting C compile features - done
+[10.511s] -- Detecting CXX compiler ABI info
+[12.129s] -- Detecting CXX compiler ABI info - done
+[12.171s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[12.176s] -- Detecting CXX compile features
+[12.191s] -- Detecting CXX compile features - done
+[12.277s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[13.336s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[13.754s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[14.057s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[15.121s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[15.257s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[15.628s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[15.840s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[16.666s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[16.702s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[17.380s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[17.984s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[18.319s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[19.180s] -- Found nav2_costmap_2d: 1.3.6 (/opt/ros/jazzy/share/nav2_costmap_2d/cmake)
+[22.077s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[22.099s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[22.099s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[23.502s] -- Configuring done (21.4s)
+[23.641s] -- Generating done (0.1s)
+[23.686s] -- Build files have been written to: /home/chalin/dev_ws/src/build/nav2_gradient_costmap_plugin
+[23.755s] Invoked command in '/home/chalin/dev_ws/src/build/nav2_gradient_costmap_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chalin/dev_ws/install/lidar_camera_projection:/opt/ros/jazzy /usr/bin/cmake /home/chalin/dev_ws/src/nav2_gradient_costmap_plugin -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin
+[23.756s] Invoking command in '/home/chalin/dev_ws/src/build/nav2_gradient_costmap_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chalin/dev_ws/install/lidar_camera_projection:/opt/ros/jazzy /usr/bin/cmake --build /home/chalin/dev_ws/src/build/nav2_gradient_costmap_plugin -- -j8 -l8
+[23.949s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_gradient_costmap_plugin_core.dir/src/gradient_layer.cpp.o[0m
+[38.427s] [100%] [32m[1mLinking CXX shared library libnav2_gradient_costmap_plugin_core.so[0m
+[39.793s] [100%] Built target nav2_gradient_costmap_plugin_core
+[39.822s] Invoked command in '/home/chalin/dev_ws/src/build/nav2_gradient_costmap_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chalin/dev_ws/install/lidar_camera_projection:/opt/ros/jazzy /usr/bin/cmake --build /home/chalin/dev_ws/src/build/nav2_gradient_costmap_plugin -- -j8 -l8
+[39.823s] Invoking command in '/home/chalin/dev_ws/src/build/nav2_gradient_costmap_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chalin/dev_ws/install/lidar_camera_projection:/opt/ros/jazzy /usr/bin/cmake --install /home/chalin/dev_ws/src/build/nav2_gradient_costmap_plugin
+[39.845s] -- Install configuration: ""
+[39.845s] -- Execute custom install script
+[39.848s] -- Symlinking: /home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin/lib/libnav2_gradient_costmap_plugin_core.so
+[39.895s] -- Symlinking: /home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin//gradient_layer.xml
+[39.923s] -- Symlinking: /home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin/share/ament_index/resource_index/package_run_dependencies/nav2_gradient_costmap_plugin
+[39.948s] -- Symlinking: /home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin/share/ament_index/resource_index/parent_prefix_path/nav2_gradient_costmap_plugin
+[39.970s] -- Symlinking: /home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/environment/ament_prefix_path.sh
+[39.996s] -- Symlinking: /home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/environment/ament_prefix_path.dsv
+[40.016s] -- Symlinking: /home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/environment/path.sh
+[40.040s] -- Symlinking: /home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/environment/path.dsv
+[40.064s] -- Symlinking: /home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/local_setup.bash
+[40.087s] -- Symlinking: /home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/local_setup.sh
+[40.112s] -- Symlinking: /home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/local_setup.zsh
+[40.141s] -- Symlinking: /home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/local_setup.dsv
+[40.163s] -- Symlinking: /home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/package.dsv
+[40.184s] -- Symlinking: /home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin/share/ament_index/resource_index/packages/nav2_gradient_costmap_plugin
+[40.200s] -- Symlinking: /home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin/share/ament_index/resource_index/nav2_costmap_2d__pluginlib__plugin/nav2_gradient_costmap_plugin
+[40.224s] -- Symlinking: /home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/cmake/nav2_gradient_costmap_pluginConfig.cmake
+[40.246s] -- Symlinking: /home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/cmake/nav2_gradient_costmap_pluginConfig-version.cmake
+[40.265s] -- Symlinking: /home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/package.xml
+[40.287s] Invoked command in '/home/chalin/dev_ws/src/build/nav2_gradient_costmap_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chalin/dev_ws/install/lidar_camera_projection:/opt/ros/jazzy /usr/bin/cmake --install /home/chalin/dev_ws/src/build/nav2_gradient_costmap_plugin

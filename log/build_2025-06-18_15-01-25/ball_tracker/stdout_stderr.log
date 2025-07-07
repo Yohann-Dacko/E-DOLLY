@@ -1,0 +1,41 @@
+/usr/lib/python3/dist-packages/setuptools/dist.py:744: SetuptoolsDeprecationWarning: Invalid dash-separated options
+!!
+
+        ********************************************************************************
+        Usage of dash-separated 'script-dir' will not be supported in future
+        versions. Please use the underscore name 'script_dir' instead.
+
+        This deprecation is overdue, please update your project and remove deprecated
+        calls to avoid build errors in the future.
+
+        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+        ********************************************************************************
+
+!!
+  opt = self.warn_dash_deprecation(opt, section)
+running egg_info
+writing ../../build/ball_tracker/ball_tracker.egg-info/PKG-INFO
+writing dependency_links to ../../build/ball_tracker/ball_tracker.egg-info/dependency_links.txt
+writing entry points to ../../build/ball_tracker/ball_tracker.egg-info/entry_points.txt
+writing requirements to ../../build/ball_tracker/ball_tracker.egg-info/requires.txt
+writing top-level names to ../../build/ball_tracker/ball_tracker.egg-info/top_level.txt
+reading manifest file '../../build/ball_tracker/ball_tracker.egg-info/SOURCES.txt'
+writing manifest file '../../build/ball_tracker/ball_tracker.egg-info/SOURCES.txt'
+running build
+running build_py
+copying ball_tracker/lidar_camera.py -> /home/chalin/dev_ws/build/ball_tracker/build/lib/ball_tracker
+running install
+running install_lib
+copying /home/chalin/dev_ws/build/ball_tracker/build/lib/ball_tracker/lidar_camera.py -> /home/chalin/dev_ws/install/ball_tracker/lib/python3.12/site-packages/ball_tracker
+byte-compiling /home/chalin/dev_ws/install/ball_tracker/lib/python3.12/site-packages/ball_tracker/lidar_camera.py to lidar_camera.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/chalin/dev_ws/install/ball_tracker/lib/python3.12/site-packages/ball_tracker-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/ball_tracker/ball_tracker.egg-info to /home/chalin/dev_ws/install/ball_tracker/lib/python3.12/site-packages/ball_tracker-0.0.0-py3.12.egg-info
+running install_scripts
+Installing 3D_contruct script to /home/chalin/dev_ws/install/ball_tracker/lib/ball_tracker
+Installing detect_ball script to /home/chalin/dev_ws/install/ball_tracker/lib/ball_tracker
+Installing detect_ball_3d script to /home/chalin/dev_ws/install/ball_tracker/lib/ball_tracker
+Installing follow_ball script to /home/chalin/dev_ws/install/ball_tracker/lib/ball_tracker
+Installing lidar_camera script to /home/chalin/dev_ws/install/ball_tracker/lib/ball_tracker
+writing list of installed files to '/home/chalin/dev_ws/build/ball_tracker/install.log'

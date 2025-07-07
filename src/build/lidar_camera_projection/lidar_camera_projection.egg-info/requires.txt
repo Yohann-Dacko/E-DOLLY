@@ -1,0 +1,7 @@
+cv_bridge
+image_transport
+numpy
+opencv-python
+setuptools
+tf2_geometry_msgs
+tf2_ros

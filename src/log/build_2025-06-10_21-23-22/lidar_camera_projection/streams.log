@@ -1,0 +1,25 @@
+[5.802s] Invoking command in '/home/chalin/dev_ws/src/build/lidar_camera_projection': PYTHONPATH=/home/chalin/dev_ws/src/build/lidar_camera_projection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chalin/dev_ws/src/install/lidar_camera_projection/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chalin/dev_ws/src/build/lidar_camera_projection/build --no-deps symlink_data
+[8.047s] running develop
+[9.364s] running egg_info
+[9.364s] creating lidar_camera_projection.egg-info
+[9.678s] writing lidar_camera_projection.egg-info/PKG-INFO
+[9.681s] writing dependency_links to lidar_camera_projection.egg-info/dependency_links.txt
+[9.681s] writing entry points to lidar_camera_projection.egg-info/entry_points.txt
+[9.683s] writing requirements to lidar_camera_projection.egg-info/requires.txt
+[9.683s] writing top-level names to lidar_camera_projection.egg-info/top_level.txt
+[9.697s] writing manifest file 'lidar_camera_projection.egg-info/SOURCES.txt'
+[9.922s] reading manifest file 'lidar_camera_projection.egg-info/SOURCES.txt'
+[9.924s] writing manifest file 'lidar_camera_projection.egg-info/SOURCES.txt'
+[10.098s] running build_ext
+[10.099s] Creating /home/chalin/dev_ws/src/install/lidar_camera_projection/lib/python3.12/site-packages/lidar-camera-projection.egg-link (link to .)
+[10.105s] Installing lidar_camera_projection script to /home/chalin/dev_ws/src/install/lidar_camera_projection/lib/lidar_camera_projection
+[10.105s] Installing object_detection_node script to /home/chalin/dev_ws/src/install/lidar_camera_projection/lib/lidar_camera_projection
+[10.105s] 
+[10.106s] Installed /home/chalin/dev_ws/src/build/lidar_camera_projection
+[10.107s] running symlink_data
+[10.111s] creating /home/chalin/dev_ws/src/install/lidar_camera_projection/share/ament_index
+[10.111s] creating /home/chalin/dev_ws/src/install/lidar_camera_projection/share/ament_index/resource_index
+[10.112s] creating /home/chalin/dev_ws/src/install/lidar_camera_projection/share/ament_index/resource_index/packages
+[10.113s] symbolically linking /home/chalin/dev_ws/src/build/lidar_camera_projection/resource/lidar_camera_projection -> /home/chalin/dev_ws/src/install/lidar_camera_projection/share/ament_index/resource_index/packages
+[10.113s] symbolically linking /home/chalin/dev_ws/src/build/lidar_camera_projection/package.xml -> /home/chalin/dev_ws/src/install/lidar_camera_projection/share/lidar_camera_projection
+[10.263s] Invoked command in '/home/chalin/dev_ws/src/build/lidar_camera_projection' returned '0': PYTHONPATH=/home/chalin/dev_ws/src/build/lidar_camera_projection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chalin/dev_ws/src/install/lidar_camera_projection/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chalin/dev_ws/src/build/lidar_camera_projection/build --no-deps symlink_data

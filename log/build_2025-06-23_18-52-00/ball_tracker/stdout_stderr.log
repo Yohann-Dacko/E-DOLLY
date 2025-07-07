@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/home/chalin/dev_ws/src/ball_tracker/setup.py", line 6, in <module>
+    setup(
+  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 106, in setup
+    _install_setup_requires(attrs)
+  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 74, in _install_setup_requires
+    dist = MinimalDistribution(attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 56, in __init__
+    super().__init__(filtered)
+  File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 483, in __init__
+    for ep in metadata.entry_points(group='distutils.setup_keywords'):
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 913, in entry_points
+    return EntryPoints(eps).select(**params)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 911, in <genexpr>
+    dist.entry_points for dist in _unique(distributions())
+    ^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

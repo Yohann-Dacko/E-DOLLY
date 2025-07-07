@@ -1,0 +1,14 @@
+[0.000000] (-) TimerEvent: {}
+[0.001485] (-) JobUnselected: {'identifier': 'e_dollyv2'}
+[0.003699] (-) JobUnselected: {'identifier': 'nav2_gradient_costmap_plugin'}
+[0.004728] (ball_tracker) JobQueued: {'identifier': 'ball_tracker', 'dependencies': OrderedDict()}
+[0.005018] (ball_tracker) JobStarted: {'identifier': 'ball_tracker'}
+[0.095680] (-) TimerEvent: {}
+[0.196229] (-) TimerEvent: {}
+[0.296763] (-) TimerEvent: {}
+[0.397293] (-) TimerEvent: {}
+[0.497939] (-) TimerEvent: {}
+[0.599125] (-) TimerEvent: {}
+[0.700148] (-) TimerEvent: {}
+[0.730919] (ball_tracker) JobEnded: {'identifier': 'ball_tracker', 'rc': 0}
+[0.733120] (-) EventReactorShutdown: {}

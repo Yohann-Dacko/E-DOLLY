@@ -1,0 +1,151 @@
+[0.747s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'lidar_camera_projection']
+[0.748s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['lidar_camera_projection'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f6cb396eab0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f6cb396e480>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f6cb396e480>>, mixin_verb=('build',))
+[0.896s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.898s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.899s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.900s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.900s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.900s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.901s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/chalin/dev_ws'
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/e_dollyv2) by extensions ['ignore', 'ignore_ament_install']
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/e_dollyv2) by extension 'ignore'
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/e_dollyv2) by extension 'ignore_ament_install'
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/e_dollyv2) by extensions ['colcon_pkg']
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/e_dollyv2) by extension 'colcon_pkg'
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/e_dollyv2) by extensions ['colcon_meta']
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/e_dollyv2) by extension 'colcon_meta'
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/e_dollyv2) by extensions ['ros']
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/e_dollyv2) by extension 'ros'
+[1.071s] DEBUG:colcon.colcon_core.package_identification:Package 'src/e_dollyv2' with type 'ros.ament_cmake' and name 'e_dollyv2'
+[1.071s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_camera_projection) by extensions ['ignore', 'ignore_ament_install']
+[1.072s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_camera_projection) by extension 'ignore'
+[1.072s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_camera_projection) by extension 'ignore_ament_install'
+[1.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_camera_projection) by extensions ['colcon_pkg']
+[1.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_camera_projection) by extension 'colcon_pkg'
+[1.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_camera_projection) by extensions ['colcon_meta']
+[1.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_camera_projection) by extension 'colcon_meta'
+[1.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_camera_projection) by extensions ['ros']
+[1.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_camera_projection) by extension 'ros'
+[1.077s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lidar_camera_projection' with type 'ros.ament_python' and name 'lidar_camera_projection'
+[1.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_gradient_costmap_plugin) by extensions ['ignore', 'ignore_ament_install']
+[1.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_gradient_costmap_plugin) by extension 'ignore'
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_gradient_costmap_plugin) by extension 'ignore_ament_install'
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_gradient_costmap_plugin) by extensions ['colcon_pkg']
+[1.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_gradient_costmap_plugin) by extension 'colcon_pkg'
+[1.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_gradient_costmap_plugin) by extensions ['colcon_meta']
+[1.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_gradient_costmap_plugin) by extension 'colcon_meta'
+[1.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_gradient_costmap_plugin) by extensions ['ros']
+[1.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_gradient_costmap_plugin) by extension 'ros'
+[1.082s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nav2_gradient_costmap_plugin' with type 'ros.ament_cmake' and name 'nav2_gradient_costmap_plugin'
+[1.082s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.082s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.082s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.155s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'e_dollyv2' in 'src/e_dollyv2'
+[1.155s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'nav2_gradient_costmap_plugin' in 'src/nav2_gradient_costmap_plugin'
+[1.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.162s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/chalin/dev_ws/install
+[1.174s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 421 installed packages in /opt/ros/jazzy
+[1.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.512s] Level 5:colcon.colcon_core.verb:set package 'lidar_camera_projection' build argument 'cmake_args' from command line to 'None'
+[1.512s] Level 5:colcon.colcon_core.verb:set package 'lidar_camera_projection' build argument 'cmake_target' from command line to 'None'
+[1.512s] Level 5:colcon.colcon_core.verb:set package 'lidar_camera_projection' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.512s] Level 5:colcon.colcon_core.verb:set package 'lidar_camera_projection' build argument 'cmake_clean_cache' from command line to 'False'
+[1.512s] Level 5:colcon.colcon_core.verb:set package 'lidar_camera_projection' build argument 'cmake_clean_first' from command line to 'False'
+[1.513s] Level 5:colcon.colcon_core.verb:set package 'lidar_camera_projection' build argument 'cmake_force_configure' from command line to 'False'
+[1.513s] Level 5:colcon.colcon_core.verb:set package 'lidar_camera_projection' build argument 'ament_cmake_args' from command line to 'None'
+[1.513s] Level 5:colcon.colcon_core.verb:set package 'lidar_camera_projection' build argument 'catkin_cmake_args' from command line to 'None'
+[1.513s] Level 5:colcon.colcon_core.verb:set package 'lidar_camera_projection' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.513s] DEBUG:colcon.colcon_core.verb:Building package 'lidar_camera_projection' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chalin/dev_ws/build/lidar_camera_projection', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chalin/dev_ws/install/lidar_camera_projection', 'merge_install': False, 'path': '/home/chalin/dev_ws/src/lidar_camera_projection', 'symlink_install': False, 'test_result_base': None}
+[1.513s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.545s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.546s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/chalin/dev_ws/src/lidar_camera_projection' with build type 'ament_python'
+[1.546s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_camera_projection', 'ament_prefix_path')
+[1.553s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.554s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chalin/dev_ws/install/lidar_camera_projection/share/lidar_camera_projection/hook/ament_prefix_path.ps1'
+[1.560s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chalin/dev_ws/install/lidar_camera_projection/share/lidar_camera_projection/hook/ament_prefix_path.dsv'
+[1.563s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chalin/dev_ws/install/lidar_camera_projection/share/lidar_camera_projection/hook/ament_prefix_path.sh'
+[1.565s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.565s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.396s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/chalin/dev_ws/src/lidar_camera_projection'
+[2.397s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.397s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.845s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chalin/dev_ws/src/lidar_camera_projection': PYTHONPATH=/home/chalin/dev_ws/build/lidar_camera_projection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chalin/dev_ws/install/lidar_camera_projection/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_camera_projection build --build-base /home/chalin/dev_ws/build/lidar_camera_projection/build install --record /home/chalin/dev_ws/build/lidar_camera_projection/install.log --single-version-externally-managed install_data
+[6.668s] Level 1:colcon.colcon_core.environment:checking '/home/chalin/dev_ws/install/lidar_camera_projection' for CMake module files
+[6.669s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chalin/dev_ws/src/lidar_camera_projection' returned '0': PYTHONPATH=/home/chalin/dev_ws/build/lidar_camera_projection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chalin/dev_ws/install/lidar_camera_projection/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_camera_projection build --build-base /home/chalin/dev_ws/build/lidar_camera_projection/build install --record /home/chalin/dev_ws/build/lidar_camera_projection/install.log --single-version-externally-managed install_data
+[6.675s] Level 1:colcon.colcon_core.environment:checking '/home/chalin/dev_ws/install/lidar_camera_projection' for CMake config files
+[6.679s] Level 1:colcon.colcon_core.environment:checking '/home/chalin/dev_ws/install/lidar_camera_projection/lib'
+[6.680s] Level 1:colcon.colcon_core.environment:checking '/home/chalin/dev_ws/install/lidar_camera_projection/bin'
+[6.680s] Level 1:colcon.colcon_core.environment:checking '/home/chalin/dev_ws/install/lidar_camera_projection/lib/pkgconfig/lidar_camera_projection.pc'
+[6.681s] Level 1:colcon.colcon_core.environment:checking '/home/chalin/dev_ws/install/lidar_camera_projection/lib/python3.12/site-packages'
+[6.681s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_camera_projection', 'pythonpath')
+[6.682s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chalin/dev_ws/install/lidar_camera_projection/share/lidar_camera_projection/hook/pythonpath.ps1'
+[6.685s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chalin/dev_ws/install/lidar_camera_projection/share/lidar_camera_projection/hook/pythonpath.dsv'
+[6.686s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chalin/dev_ws/install/lidar_camera_projection/share/lidar_camera_projection/hook/pythonpath.sh'
+[6.689s] Level 1:colcon.colcon_core.environment:checking '/home/chalin/dev_ws/install/lidar_camera_projection/bin'
+[6.689s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lidar_camera_projection)
+[6.690s] INFO:colcon.colcon_core.shell:Creating package script '/home/chalin/dev_ws/install/lidar_camera_projection/share/lidar_camera_projection/package.ps1'
+[6.692s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chalin/dev_ws/install/lidar_camera_projection/share/lidar_camera_projection/package.dsv'
+[6.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/chalin/dev_ws/install/lidar_camera_projection/share/lidar_camera_projection/package.sh'
+[6.697s] INFO:colcon.colcon_core.shell:Creating package script '/home/chalin/dev_ws/install/lidar_camera_projection/share/lidar_camera_projection/package.bash'
+[6.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/chalin/dev_ws/install/lidar_camera_projection/share/lidar_camera_projection/package.zsh'
+[6.703s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chalin/dev_ws/install/lidar_camera_projection/share/colcon-core/packages/lidar_camera_projection)
+[6.713s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.715s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.715s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.715s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.809s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[6.809s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.809s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.810s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.817s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[6.818s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.818s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chalin/dev_ws/install/local_setup.ps1'
+[6.821s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/chalin/dev_ws/install/_local_setup_util_ps1.py'
+[6.825s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chalin/dev_ws/install/setup.ps1'
+[6.827s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chalin/dev_ws/install/local_setup.sh'
+[6.829s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/chalin/dev_ws/install/_local_setup_util_sh.py'
+[6.830s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chalin/dev_ws/install/setup.sh'
+[6.834s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chalin/dev_ws/install/local_setup.bash'
+[6.837s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chalin/dev_ws/install/setup.bash'
+[6.839s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chalin/dev_ws/install/local_setup.zsh'
+[6.841s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chalin/dev_ws/install/setup.zsh'

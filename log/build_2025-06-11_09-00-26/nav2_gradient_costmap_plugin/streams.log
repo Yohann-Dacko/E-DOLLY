@@ -1,0 +1,25 @@
+[0.365s] Invoking command in '/home/chalin/dev_ws/build/nav2_gradient_costmap_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chalin/dev_ws/install/lidar_camera_projection:/opt/ros/jazzy /usr/bin/cmake --build /home/chalin/dev_ws/build/nav2_gradient_costmap_plugin -- -j8 -l8
+[0.657s] [100%] Built target nav2_gradient_costmap_plugin_core
+[0.675s] Invoked command in '/home/chalin/dev_ws/build/nav2_gradient_costmap_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chalin/dev_ws/install/lidar_camera_projection:/opt/ros/jazzy /usr/bin/cmake --build /home/chalin/dev_ws/build/nav2_gradient_costmap_plugin -- -j8 -l8
+[0.677s] Invoking command in '/home/chalin/dev_ws/build/nav2_gradient_costmap_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chalin/dev_ws/install/lidar_camera_projection:/opt/ros/jazzy /usr/bin/cmake --install /home/chalin/dev_ws/build/nav2_gradient_costmap_plugin
+[0.688s] -- Install configuration: ""
+[0.689s] -- Execute custom install script
+[0.690s] -- Up-to-date symlink: /home/chalin/dev_ws/install/nav2_gradient_costmap_plugin/lib/libnav2_gradient_costmap_plugin_core.so
+[0.690s] -- Up-to-date symlink: /home/chalin/dev_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin//gradient_layer.xml
+[0.691s] -- Up-to-date symlink: /home/chalin/dev_ws/install/nav2_gradient_costmap_plugin/share/ament_index/resource_index/package_run_dependencies/nav2_gradient_costmap_plugin
+[0.691s] -- Up-to-date symlink: /home/chalin/dev_ws/install/nav2_gradient_costmap_plugin/share/ament_index/resource_index/parent_prefix_path/nav2_gradient_costmap_plugin
+[0.692s] -- Up-to-date symlink: /home/chalin/dev_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/environment/ament_prefix_path.sh
+[0.693s] -- Up-to-date symlink: /home/chalin/dev_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/environment/ament_prefix_path.dsv
+[0.693s] -- Up-to-date symlink: /home/chalin/dev_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/environment/path.sh
+[0.694s] -- Up-to-date symlink: /home/chalin/dev_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/environment/path.dsv
+[0.694s] -- Up-to-date symlink: /home/chalin/dev_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/local_setup.bash
+[0.695s] -- Up-to-date symlink: /home/chalin/dev_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/local_setup.sh
+[0.695s] -- Up-to-date symlink: /home/chalin/dev_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/local_setup.zsh
+[0.696s] -- Up-to-date symlink: /home/chalin/dev_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/local_setup.dsv
+[0.696s] -- Symlinking: /home/chalin/dev_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/package.dsv
+[0.711s] -- Up-to-date symlink: /home/chalin/dev_ws/install/nav2_gradient_costmap_plugin/share/ament_index/resource_index/packages/nav2_gradient_costmap_plugin
+[0.711s] -- Up-to-date symlink: /home/chalin/dev_ws/install/nav2_gradient_costmap_plugin/share/ament_index/resource_index/nav2_costmap_2d__pluginlib__plugin/nav2_gradient_costmap_plugin
+[0.711s] -- Up-to-date symlink: /home/chalin/dev_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/cmake/nav2_gradient_costmap_pluginConfig.cmake
+[0.711s] -- Up-to-date symlink: /home/chalin/dev_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/cmake/nav2_gradient_costmap_pluginConfig-version.cmake
+[0.711s] -- Up-to-date symlink: /home/chalin/dev_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/package.xml
+[0.714s] Invoked command in '/home/chalin/dev_ws/build/nav2_gradient_costmap_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chalin/dev_ws/install/lidar_camera_projection:/opt/ros/jazzy /usr/bin/cmake --install /home/chalin/dev_ws/build/nav2_gradient_costmap_plugin

@@ -1,0 +1,41 @@
+[3.249s] Invoking command in '/home/chalin/dev_ws/build/ball_tracker': PYTHONPATH=/home/chalin/dev_ws/build/ball_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chalin/dev_ws/install/ball_tracker/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chalin/dev_ws/build/ball_tracker/build --no-deps symlink_data --force
+[3.629s] /usr/lib/python3/dist-packages/setuptools/dist.py:744: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[3.629s] !!
+[3.629s] 
+[3.629s]         ********************************************************************************
+[3.629s]         Usage of dash-separated 'script-dir' will not be supported in future
+[3.630s]         versions. Please use the underscore name 'script_dir' instead.
+[3.630s] 
+[3.630s]         This deprecation is overdue, please update your project and remove deprecated
+[3.630s]         calls to avoid build errors in the future.
+[3.630s] 
+[3.630s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[3.631s]         ********************************************************************************
+[3.631s] 
+[3.631s] !!
+[3.631s]   opt = self.warn_dash_deprecation(opt, section)
+[4.377s] running develop
+[4.991s] running egg_info
+[5.060s] writing ball_tracker.egg-info/PKG-INFO
+[5.063s] writing dependency_links to ball_tracker.egg-info/dependency_links.txt
+[5.063s] writing entry points to ball_tracker.egg-info/entry_points.txt
+[5.065s] writing requirements to ball_tracker.egg-info/requires.txt
+[5.065s] writing top-level names to ball_tracker.egg-info/top_level.txt
+[5.187s] reading manifest file 'ball_tracker.egg-info/SOURCES.txt'
+[5.195s] writing manifest file 'ball_tracker.egg-info/SOURCES.txt'
+[5.286s] running build_ext
+[5.287s] Creating /home/chalin/dev_ws/install/ball_tracker/lib/python3.12/site-packages/ball-tracker.egg-link (link to .)
+[5.289s] Installing 3D_contruct script to /home/chalin/dev_ws/install/ball_tracker/lib/ball_tracker
+[5.294s] Installing detect_ball script to /home/chalin/dev_ws/install/ball_tracker/lib/ball_tracker
+[5.296s] Installing detect_ball_3d script to /home/chalin/dev_ws/install/ball_tracker/lib/ball_tracker
+[5.297s] Installing follow_ball script to /home/chalin/dev_ws/install/ball_tracker/lib/ball_tracker
+[5.308s] Installing lidar_camera script to /home/chalin/dev_ws/install/ball_tracker/lib/ball_tracker
+[5.312s] 
+[5.312s] Installed /home/chalin/dev_ws/build/ball_tracker
+[5.313s] running symlink_data
+[5.315s] symbolically linking /home/chalin/dev_ws/build/ball_tracker/resource/ball_tracker -> /home/chalin/dev_ws/install/ball_tracker/share/ament_index/resource_index/packages
+[5.320s] symbolically linking /home/chalin/dev_ws/build/ball_tracker/package.xml -> /home/chalin/dev_ws/install/ball_tracker/share/ball_tracker
+[5.324s] symbolically linking /home/chalin/dev_ws/build/ball_tracker/launch/ball_tracker.launch.py -> /home/chalin/dev_ws/install/ball_tracker/share/ball_tracker/launch
+[5.326s] symbolically linking /home/chalin/dev_ws/build/ball_tracker/launch/example_launch_include.launch.py -> /home/chalin/dev_ws/install/ball_tracker/share/ball_tracker/launch
+[5.342s] symbolically linking /home/chalin/dev_ws/build/ball_tracker/config/ball_tracker_params_example.yaml -> /home/chalin/dev_ws/install/ball_tracker/share/ball_tracker/config
+[5.534s] Invoked command in '/home/chalin/dev_ws/build/ball_tracker' returned '0': PYTHONPATH=/home/chalin/dev_ws/build/ball_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chalin/dev_ws/install/ball_tracker/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chalin/dev_ws/build/ball_tracker/build --no-deps symlink_data --force

@@ -1,0 +1,46 @@
+[1.982s] Invoking command in '/home/chalin/dev_ws/build/ball_tracker': PYTHONPATH=/home/chalin/dev_ws/build/ball_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chalin/dev_ws/install/ball_tracker/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chalin/dev_ws/build/ball_tracker/build --no-deps symlink_data
+[2.187s] /usr/lib/python3/dist-packages/setuptools/dist.py:744: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[2.187s] !!
+[2.187s] 
+[2.187s]         ********************************************************************************
+[2.187s]         Usage of dash-separated 'script-dir' will not be supported in future
+[2.187s]         versions. Please use the underscore name 'script_dir' instead.
+[2.187s] 
+[2.187s]         This deprecation is overdue, please update your project and remove deprecated
+[2.187s]         calls to avoid build errors in the future.
+[2.188s] 
+[2.188s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[2.188s]         ********************************************************************************
+[2.188s] 
+[2.188s] !!
+[2.188s]   opt = self.warn_dash_deprecation(opt, section)
+[2.553s] running develop
+[2.912s] running egg_info
+[2.912s] creating ball_tracker.egg-info
+[2.944s] writing ball_tracker.egg-info/PKG-INFO
+[2.945s] writing dependency_links to ball_tracker.egg-info/dependency_links.txt
+[2.945s] writing entry points to ball_tracker.egg-info/entry_points.txt
+[2.946s] writing requirements to ball_tracker.egg-info/requires.txt
+[2.946s] writing top-level names to ball_tracker.egg-info/top_level.txt
+[2.946s] writing manifest file 'ball_tracker.egg-info/SOURCES.txt'
+[3.010s] reading manifest file 'ball_tracker.egg-info/SOURCES.txt'
+[3.011s] writing manifest file 'ball_tracker.egg-info/SOURCES.txt'
+[3.053s] running build_ext
+[3.053s] Creating /home/chalin/dev_ws/install/ball_tracker/lib/python3.12/site-packages/ball-tracker.egg-link (link to .)
+[3.054s] Installing detect_ball script to /home/chalin/dev_ws/install/ball_tracker/lib/ball_tracker
+[3.055s] Installing detect_ball_3d script to /home/chalin/dev_ws/install/ball_tracker/lib/ball_tracker
+[3.056s] Installing follow_ball script to /home/chalin/dev_ws/install/ball_tracker/lib/ball_tracker
+[3.057s] 
+[3.057s] Installed /home/chalin/dev_ws/build/ball_tracker
+[3.058s] running symlink_data
+[3.058s] creating /home/chalin/dev_ws/install/ball_tracker/share/ament_index
+[3.060s] creating /home/chalin/dev_ws/install/ball_tracker/share/ament_index/resource_index
+[3.061s] creating /home/chalin/dev_ws/install/ball_tracker/share/ament_index/resource_index/packages
+[3.061s] symbolically linking /home/chalin/dev_ws/build/ball_tracker/resource/ball_tracker -> /home/chalin/dev_ws/install/ball_tracker/share/ament_index/resource_index/packages
+[3.062s] symbolically linking /home/chalin/dev_ws/build/ball_tracker/package.xml -> /home/chalin/dev_ws/install/ball_tracker/share/ball_tracker
+[3.062s] creating /home/chalin/dev_ws/install/ball_tracker/share/ball_tracker/launch
+[3.063s] symbolically linking /home/chalin/dev_ws/build/ball_tracker/launch/ball_tracker.launch.py -> /home/chalin/dev_ws/install/ball_tracker/share/ball_tracker/launch
+[3.064s] symbolically linking /home/chalin/dev_ws/build/ball_tracker/launch/example_launch_include.launch.py -> /home/chalin/dev_ws/install/ball_tracker/share/ball_tracker/launch
+[3.064s] creating /home/chalin/dev_ws/install/ball_tracker/share/ball_tracker/config
+[3.064s] symbolically linking /home/chalin/dev_ws/build/ball_tracker/config/ball_tracker_params_example.yaml -> /home/chalin/dev_ws/install/ball_tracker/share/ball_tracker/config
+[3.151s] Invoked command in '/home/chalin/dev_ws/build/ball_tracker' returned '0': PYTHONPATH=/home/chalin/dev_ws/build/ball_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chalin/dev_ws/install/ball_tracker/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chalin/dev_ws/build/ball_tracker/build --no-deps symlink_data

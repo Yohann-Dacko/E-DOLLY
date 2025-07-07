@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/lidar_camera_projection/lidar_camera_projection.egg-info/PKG-INFO
+writing dependency_links to ../../build/lidar_camera_projection/lidar_camera_projection.egg-info/dependency_links.txt
+writing entry points to ../../build/lidar_camera_projection/lidar_camera_projection.egg-info/entry_points.txt
+writing requirements to ../../build/lidar_camera_projection/lidar_camera_projection.egg-info/requires.txt
+writing top-level names to ../../build/lidar_camera_projection/lidar_camera_projection.egg-info/top_level.txt
+reading manifest file '../../build/lidar_camera_projection/lidar_camera_projection.egg-info/SOURCES.txt'
+writing manifest file '../../build/lidar_camera_projection/lidar_camera_projection.egg-info/SOURCES.txt'
+running build
+running build_py
+copying lidar_camera_projection/object_detection_node.py -> /home/chalin/dev_ws/build/lidar_camera_projection/build/lib/lidar_camera_projection
+running install
+running install_lib
+copying /home/chalin/dev_ws/build/lidar_camera_projection/build/lib/lidar_camera_projection/object_detection_node.py -> /home/chalin/dev_ws/install/lidar_camera_projection/lib/python3.12/site-packages/lidar_camera_projection
+byte-compiling /home/chalin/dev_ws/install/lidar_camera_projection/lib/python3.12/site-packages/lidar_camera_projection/object_detection_node.py to object_detection_node.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/chalin/dev_ws/install/lidar_camera_projection/lib/python3.12/site-packages/lidar_camera_projection-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/lidar_camera_projection/lidar_camera_projection.egg-info to /home/chalin/dev_ws/install/lidar_camera_projection/lib/python3.12/site-packages/lidar_camera_projection-0.0.0-py3.12.egg-info
+running install_scripts
+Installing lidar_camera_projection script to /home/chalin/dev_ws/install/lidar_camera_projection/lib/lidar_camera_projection
+Installing object_detection_node script to /home/chalin/dev_ws/install/lidar_camera_projection/lib/lidar_camera_projection
+writing list of installed files to '/home/chalin/dev_ws/build/lidar_camera_projection/install.log'

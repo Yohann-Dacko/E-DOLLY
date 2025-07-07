@@ -1,0 +1,4 @@
+Invoking command in '/home/chalin/dev_ws/src/build/e_dollyv2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chalin/dev_ws/install/lidar_camera_projection:/opt/ros/jazzy /usr/bin/cmake --build /home/chalin/dev_ws/src/build/e_dollyv2 -- -j8 -l8
+Invoked command in '/home/chalin/dev_ws/src/build/e_dollyv2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chalin/dev_ws/install/lidar_camera_projection:/opt/ros/jazzy /usr/bin/cmake --build /home/chalin/dev_ws/src/build/e_dollyv2 -- -j8 -l8
+Invoking command in '/home/chalin/dev_ws/src/build/e_dollyv2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chalin/dev_ws/install/lidar_camera_projection:/opt/ros/jazzy /usr/bin/cmake --install /home/chalin/dev_ws/src/build/e_dollyv2
+Invoked command in '/home/chalin/dev_ws/src/build/e_dollyv2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chalin/dev_ws/install/lidar_camera_projection:/opt/ros/jazzy /usr/bin/cmake --install /home/chalin/dev_ws/src/build/e_dollyv2

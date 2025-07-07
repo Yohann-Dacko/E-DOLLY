@@ -1,0 +1,58 @@
+[1.407s] Invoking command in '/home/chalin/dev_ws/src/build/e_dollyv2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chalin/dev_ws/install/lidar_camera_projection:/opt/ros/jazzy /usr/bin/cmake --build /home/chalin/dev_ws/src/build/e_dollyv2 -- -j8 -l8
+[1.756s] Invoked command in '/home/chalin/dev_ws/src/build/e_dollyv2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chalin/dev_ws/install/lidar_camera_projection:/opt/ros/jazzy /usr/bin/cmake --build /home/chalin/dev_ws/src/build/e_dollyv2 -- -j8 -l8
+[1.871s] Invoking command in '/home/chalin/dev_ws/src/build/e_dollyv2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chalin/dev_ws/install/lidar_camera_projection:/opt/ros/jazzy /usr/bin/cmake --install /home/chalin/dev_ws/src/build/e_dollyv2
+[1.966s] -- Install configuration: ""
+[1.977s] -- Execute custom install script
+[2.018s] -- Up-to-date symlink: /home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/config/ball_tracker_params_robot.yaml
+[2.020s] -- Up-to-date symlink: /home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/config/ball_tracker_params_sim.yaml
+[2.021s] -- Up-to-date symlink: /home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/config/drive_bot.rviz
+[2.022s] -- Up-to-date symlink: /home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/config/ekf.yaml
+[2.026s] -- Up-to-date symlink: /home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/config/empty.yaml
+[2.031s] -- Up-to-date symlink: /home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/config/gaz_ros2_ct_use_sim.yaml
+[2.033s] -- Up-to-date symlink: /home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/config/gazebo_params.yaml
+[2.034s] -- Up-to-date symlink: /home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/config/gz_bridge.yaml
+[2.034s] -- Up-to-date symlink: /home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/config/joystick.yaml
+[2.035s] -- Up-to-date symlink: /home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/config/main.rviz
+[2.036s] -- Up-to-date symlink: /home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/config/map.rviz
+[2.037s] -- Up-to-date symlink: /home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/config/mapper_params_online_async.yaml
+[2.037s] -- Up-to-date symlink: /home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/config/my_controllers.yaml
+[2.037s] -- Up-to-date symlink: /home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/config/nav2_params.yaml
+[2.037s] -- Up-to-date symlink: /home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/config/twist_mux.yaml
+[2.037s] -- Up-to-date symlink: /home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/config/view_bot.rviz
+[2.040s] -- Up-to-date symlink: /home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/description/camera.xacro
+[2.041s] -- Up-to-date symlink: /home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/description/depth_camera.xacro
+[2.041s] -- Up-to-date symlink: /home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/description/face.xacro
+[2.041s] -- Up-to-date symlink: /home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/description/gazebo_control.xacro
+[2.041s] -- Up-to-date symlink: /home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/description/inertial_macros.xacro
+[2.041s] -- Up-to-date symlink: /home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/description/lidar.xacro
+[2.041s] -- Up-to-date symlink: /home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/description/robot.urdf.xacro
+[2.041s] -- Up-to-date symlink: /home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/description/robot_core.xacro
+[2.042s] -- Up-to-date symlink: /home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/description/ros2_control.xacro
+[2.063s] -- Up-to-date symlink: /home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/launch/ball_tracker.launch.py
+[2.063s] -- Up-to-date symlink: /home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/launch/camera.launch.py
+[2.069s] -- Up-to-date symlink: /home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/launch/joystick.launch.py
+[2.074s] -- Up-to-date symlink: /home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/launch/launch_robot.launch.py
+[2.074s] -- Up-to-date symlink: /home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/launch/launch_sim.launch.py
+[2.074s] -- Up-to-date symlink: /home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/launch/localization_launch.py
+[2.074s] -- Up-to-date symlink: /home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/launch/navigation_launch.py
+[2.074s] -- Up-to-date symlink: /home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/launch/online_async_launch.py
+[2.075s] -- Up-to-date symlink: /home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/launch/rplidar.launch.py
+[2.075s] -- Up-to-date symlink: /home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/launch/rsp.launch.py
+[2.075s] -- Up-to-date symlink: /home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/worlds/empty.world
+[2.075s] -- Up-to-date symlink: /home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/worlds/obstacles.world
+[2.075s] -- Up-to-date symlink: /home/chalin/dev_ws/src/install/e_dollyv2/share/ament_index/resource_index/package_run_dependencies/e_dollyv2
+[2.075s] -- Up-to-date symlink: /home/chalin/dev_ws/src/install/e_dollyv2/share/ament_index/resource_index/parent_prefix_path/e_dollyv2
+[2.077s] -- Up-to-date symlink: /home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/environment/ament_prefix_path.sh
+[2.077s] -- Up-to-date symlink: /home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/environment/ament_prefix_path.dsv
+[2.077s] -- Up-to-date symlink: /home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/environment/path.sh
+[2.077s] -- Up-to-date symlink: /home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/environment/path.dsv
+[2.077s] -- Up-to-date symlink: /home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/local_setup.bash
+[2.077s] -- Up-to-date symlink: /home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/local_setup.sh
+[2.078s] -- Up-to-date symlink: /home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/local_setup.zsh
+[2.078s] -- Up-to-date symlink: /home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/local_setup.dsv
+[2.078s] -- Symlinking: /home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/package.dsv
+[2.113s] -- Up-to-date symlink: /home/chalin/dev_ws/src/install/e_dollyv2/share/ament_index/resource_index/packages/e_dollyv2
+[2.113s] -- Up-to-date symlink: /home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/cmake/e_dollyv2Config.cmake
+[2.113s] -- Up-to-date symlink: /home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/cmake/e_dollyv2Config-version.cmake
+[2.114s] -- Up-to-date symlink: /home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/package.xml
+[2.124s] Invoked command in '/home/chalin/dev_ws/src/build/e_dollyv2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chalin/dev_ws/install/lidar_camera_projection:/opt/ros/jazzy /usr/bin/cmake --install /home/chalin/dev_ws/src/build/e_dollyv2

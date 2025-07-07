@@ -1,0 +1,1 @@
+cv_bridge:geometry_msgs:image_transport:libopencv-dev:numpy:opencv-python:python3-numpy:rclpy:sensor_msgs:std_msgs:tf2_geometry_msgs:tf2_ros:vision_msgs

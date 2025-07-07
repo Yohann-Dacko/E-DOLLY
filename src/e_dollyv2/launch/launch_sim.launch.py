@@ -73,7 +73,8 @@ def launch_setup(context, *args, **kwargs):
         ]),
         launch_arguments={
             'gz_args': ['-r -v4 ', world],
-            'on_exit_shutdown': 'true'
+            'on_exit_shutdown': 'true',
+            
         }.items(),
     )
 

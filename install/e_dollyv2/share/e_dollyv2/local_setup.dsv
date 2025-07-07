@@ -1,2 +1,1 @@
-source;share/e_dollyv2/environment/ament_prefix_path.sh
-source;share/e_dollyv2/environment/path.sh
+/home/chalin/dev_ws/build/e_dollyv2/ament_cmake_environment_hooks/local_setup.dsv

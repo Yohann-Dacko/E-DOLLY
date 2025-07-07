@@ -1,0 +1,22 @@
+[3.951s] Invoking command in '/home/chalin/dev_ws/src/ball_tracker': PYTHONPATH=/home/chalin/dev_ws/build/ball_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chalin/dev_ws/install/ball_tracker/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ball_tracker build --build-base /home/chalin/dev_ws/build/ball_tracker/build install --record /home/chalin/dev_ws/build/ball_tracker/install.log --install-scripts $base/lib/ball_tracker --single-version-externally-managed install_data
+[4.573s] Traceback (most recent call last):
+[4.575s]   File "/home/chalin/dev_ws/src/ball_tracker/setup.py", line 6, in <module>
+[4.576s]     setup(
+[4.586s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 106, in setup
+[4.598s]     _install_setup_requires(attrs)
+[4.599s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 74, in _install_setup_requires
+[4.599s]     dist = MinimalDistribution(attrs)
+[4.599s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[4.599s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 56, in __init__
+[4.599s]     super().__init__(filtered)
+[4.599s]   File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 483, in __init__
+[4.600s]     for ep in metadata.entry_points(group='distutils.setup_keywords'):
+[4.600s]               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[4.600s]   File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 913, in entry_points
+[4.605s]     return EntryPoints(eps).select(**params)
+[4.615s]            ^^^^^^^^^^^^^^^^
+[4.615s]   File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 911, in <genexpr>
+[4.616s]     dist.entry_points for dist in _unique(distributions())
+[4.616s]     ^^^^^^^^^^^^^^^^^
+[4.616s] KeyboardInterrupt
+[4.748s] Invoked command in '/home/chalin/dev_ws/src/ball_tracker' returned '-2': PYTHONPATH=/home/chalin/dev_ws/build/ball_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chalin/dev_ws/install/ball_tracker/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ball_tracker build --build-base /home/chalin/dev_ws/build/ball_tracker/build install --record /home/chalin/dev_ws/build/ball_tracker/install.log --install-scripts $base/lib/ball_tracker --single-version-externally-managed install_data

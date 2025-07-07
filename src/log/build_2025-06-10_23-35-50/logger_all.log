@@ -1,0 +1,308 @@
+[1.161s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[1.162s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fae958977a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fae95897110>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fae95897110>>, mixin_verb=('build',))
+[1.489s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.490s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/chalin/dev_ws/src'
+[1.490s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.490s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(ball_tracker) by extensions ['ignore', 'ignore_ament_install']
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(ball_tracker) by extension 'ignore'
+[1.681s] Level 1:colcon.colcon_core.package_identification:_identify(ball_tracker) by extension 'ignore_ament_install'
+[1.681s] Level 1:colcon.colcon_core.package_identification:_identify(ball_tracker) by extensions ['colcon_pkg']
+[1.681s] Level 1:colcon.colcon_core.package_identification:_identify(ball_tracker) by extension 'colcon_pkg'
+[1.681s] Level 1:colcon.colcon_core.package_identification:_identify(ball_tracker) by extensions ['colcon_meta']
+[1.682s] Level 1:colcon.colcon_core.package_identification:_identify(ball_tracker) by extension 'colcon_meta'
+[1.682s] Level 1:colcon.colcon_core.package_identification:_identify(ball_tracker) by extensions ['ros']
+[1.682s] Level 1:colcon.colcon_core.package_identification:_identify(ball_tracker) by extension 'ros'
+[1.696s] DEBUG:colcon.colcon_core.package_identification:Package 'ball_tracker' with type 'ros.ament_python' and name 'ball_tracker'
+[1.697s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.699s] Level 1:colcon.colcon_core.package_identification:_identify(e_dollyv2) by extensions ['ignore', 'ignore_ament_install']
+[1.699s] Level 1:colcon.colcon_core.package_identification:_identify(e_dollyv2) by extension 'ignore'
+[1.699s] Level 1:colcon.colcon_core.package_identification:_identify(e_dollyv2) by extension 'ignore_ament_install'
+[1.699s] Level 1:colcon.colcon_core.package_identification:_identify(e_dollyv2) by extensions ['colcon_pkg']
+[1.699s] Level 1:colcon.colcon_core.package_identification:_identify(e_dollyv2) by extension 'colcon_pkg'
+[1.699s] Level 1:colcon.colcon_core.package_identification:_identify(e_dollyv2) by extensions ['colcon_meta']
+[1.699s] Level 1:colcon.colcon_core.package_identification:_identify(e_dollyv2) by extension 'colcon_meta'
+[1.699s] Level 1:colcon.colcon_core.package_identification:_identify(e_dollyv2) by extensions ['ros']
+[1.699s] Level 1:colcon.colcon_core.package_identification:_identify(e_dollyv2) by extension 'ros'
+[1.702s] DEBUG:colcon.colcon_core.package_identification:Package 'e_dollyv2' with type 'ros.ament_cmake' and name 'e_dollyv2'
+[1.703s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.703s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.703s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.703s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_camera_projection) by extensions ['ignore', 'ignore_ament_install']
+[1.704s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_camera_projection) by extension 'ignore'
+[1.704s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_camera_projection) by extension 'ignore_ament_install'
+[1.704s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_camera_projection) by extensions ['colcon_pkg']
+[1.704s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_camera_projection) by extension 'colcon_pkg'
+[1.705s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_camera_projection) by extensions ['colcon_meta']
+[1.705s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_camera_projection) by extension 'colcon_meta'
+[1.705s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_camera_projection) by extensions ['ros']
+[1.705s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_camera_projection) by extension 'ros'
+[1.707s] DEBUG:colcon.colcon_core.package_identification:Package 'lidar_camera_projection' with type 'ros.ament_python' and name 'lidar_camera_projection'
+[1.707s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.708s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.708s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.709s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_gradient_costmap_plugin) by extensions ['ignore', 'ignore_ament_install']
+[1.710s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_gradient_costmap_plugin) by extension 'ignore'
+[1.710s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_gradient_costmap_plugin) by extension 'ignore_ament_install'
+[1.711s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_gradient_costmap_plugin) by extensions ['colcon_pkg']
+[1.711s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_gradient_costmap_plugin) by extension 'colcon_pkg'
+[1.711s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_gradient_costmap_plugin) by extensions ['colcon_meta']
+[1.711s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_gradient_costmap_plugin) by extension 'colcon_meta'
+[1.712s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_gradient_costmap_plugin) by extensions ['ros']
+[1.712s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_gradient_costmap_plugin) by extension 'ros'
+[1.715s] DEBUG:colcon.colcon_core.package_identification:Package 'nav2_gradient_costmap_plugin' with type 'ros.ament_cmake' and name 'nav2_gradient_costmap_plugin'
+[1.716s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.716s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.716s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.716s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.716s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.827s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.828s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.844s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/chalin/dev_ws/src/install
+[1.846s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/chalin/dev_ws/install
+[1.854s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 421 installed packages in /opt/ros/jazzy
+[1.861s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.141s] Level 5:colcon.colcon_core.verb:set package 'ball_tracker' build argument 'cmake_args' from command line to 'None'
+[2.141s] Level 5:colcon.colcon_core.verb:set package 'ball_tracker' build argument 'cmake_target' from command line to 'None'
+[2.141s] Level 5:colcon.colcon_core.verb:set package 'ball_tracker' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.142s] Level 5:colcon.colcon_core.verb:set package 'ball_tracker' build argument 'cmake_clean_cache' from command line to 'False'
+[2.142s] Level 5:colcon.colcon_core.verb:set package 'ball_tracker' build argument 'cmake_clean_first' from command line to 'False'
+[2.142s] Level 5:colcon.colcon_core.verb:set package 'ball_tracker' build argument 'cmake_force_configure' from command line to 'False'
+[2.142s] Level 5:colcon.colcon_core.verb:set package 'ball_tracker' build argument 'ament_cmake_args' from command line to 'None'
+[2.147s] Level 5:colcon.colcon_core.verb:set package 'ball_tracker' build argument 'catkin_cmake_args' from command line to 'None'
+[2.147s] Level 5:colcon.colcon_core.verb:set package 'ball_tracker' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.147s] DEBUG:colcon.colcon_core.verb:Building package 'ball_tracker' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chalin/dev_ws/src/build/ball_tracker', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chalin/dev_ws/src/install/ball_tracker', 'merge_install': False, 'path': '/home/chalin/dev_ws/src/ball_tracker', 'symlink_install': True, 'test_result_base': None}
+[2.148s] Level 5:colcon.colcon_core.verb:set package 'e_dollyv2' build argument 'cmake_args' from command line to 'None'
+[2.148s] Level 5:colcon.colcon_core.verb:set package 'e_dollyv2' build argument 'cmake_target' from command line to 'None'
+[2.148s] Level 5:colcon.colcon_core.verb:set package 'e_dollyv2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.148s] Level 5:colcon.colcon_core.verb:set package 'e_dollyv2' build argument 'cmake_clean_cache' from command line to 'False'
+[2.148s] Level 5:colcon.colcon_core.verb:set package 'e_dollyv2' build argument 'cmake_clean_first' from command line to 'False'
+[2.148s] Level 5:colcon.colcon_core.verb:set package 'e_dollyv2' build argument 'cmake_force_configure' from command line to 'False'
+[2.148s] Level 5:colcon.colcon_core.verb:set package 'e_dollyv2' build argument 'ament_cmake_args' from command line to 'None'
+[2.148s] Level 5:colcon.colcon_core.verb:set package 'e_dollyv2' build argument 'catkin_cmake_args' from command line to 'None'
+[2.148s] Level 5:colcon.colcon_core.verb:set package 'e_dollyv2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.148s] DEBUG:colcon.colcon_core.verb:Building package 'e_dollyv2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chalin/dev_ws/src/build/e_dollyv2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chalin/dev_ws/src/install/e_dollyv2', 'merge_install': False, 'path': '/home/chalin/dev_ws/src/e_dollyv2', 'symlink_install': True, 'test_result_base': None}
+[2.149s] Level 5:colcon.colcon_core.verb:set package 'lidar_camera_projection' build argument 'cmake_args' from command line to 'None'
+[2.149s] Level 5:colcon.colcon_core.verb:set package 'lidar_camera_projection' build argument 'cmake_target' from command line to 'None'
+[2.149s] Level 5:colcon.colcon_core.verb:set package 'lidar_camera_projection' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.149s] Level 5:colcon.colcon_core.verb:set package 'lidar_camera_projection' build argument 'cmake_clean_cache' from command line to 'False'
+[2.149s] Level 5:colcon.colcon_core.verb:set package 'lidar_camera_projection' build argument 'cmake_clean_first' from command line to 'False'
+[2.149s] Level 5:colcon.colcon_core.verb:set package 'lidar_camera_projection' build argument 'cmake_force_configure' from command line to 'False'
+[2.150s] Level 5:colcon.colcon_core.verb:set package 'lidar_camera_projection' build argument 'ament_cmake_args' from command line to 'None'
+[2.150s] Level 5:colcon.colcon_core.verb:set package 'lidar_camera_projection' build argument 'catkin_cmake_args' from command line to 'None'
+[2.150s] Level 5:colcon.colcon_core.verb:set package 'lidar_camera_projection' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.150s] DEBUG:colcon.colcon_core.verb:Building package 'lidar_camera_projection' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chalin/dev_ws/src/build/lidar_camera_projection', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chalin/dev_ws/src/install/lidar_camera_projection', 'merge_install': False, 'path': '/home/chalin/dev_ws/src/lidar_camera_projection', 'symlink_install': True, 'test_result_base': None}
+[2.163s] Level 5:colcon.colcon_core.verb:set package 'nav2_gradient_costmap_plugin' build argument 'cmake_args' from command line to 'None'
+[2.163s] Level 5:colcon.colcon_core.verb:set package 'nav2_gradient_costmap_plugin' build argument 'cmake_target' from command line to 'None'
+[2.164s] Level 5:colcon.colcon_core.verb:set package 'nav2_gradient_costmap_plugin' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.164s] Level 5:colcon.colcon_core.verb:set package 'nav2_gradient_costmap_plugin' build argument 'cmake_clean_cache' from command line to 'False'
+[2.164s] Level 5:colcon.colcon_core.verb:set package 'nav2_gradient_costmap_plugin' build argument 'cmake_clean_first' from command line to 'False'
+[2.164s] Level 5:colcon.colcon_core.verb:set package 'nav2_gradient_costmap_plugin' build argument 'cmake_force_configure' from command line to 'False'
+[2.164s] Level 5:colcon.colcon_core.verb:set package 'nav2_gradient_costmap_plugin' build argument 'ament_cmake_args' from command line to 'None'
+[2.164s] Level 5:colcon.colcon_core.verb:set package 'nav2_gradient_costmap_plugin' build argument 'catkin_cmake_args' from command line to 'None'
+[2.164s] Level 5:colcon.colcon_core.verb:set package 'nav2_gradient_costmap_plugin' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.164s] DEBUG:colcon.colcon_core.verb:Building package 'nav2_gradient_costmap_plugin' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chalin/dev_ws/src/build/nav2_gradient_costmap_plugin', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin', 'merge_install': False, 'path': '/home/chalin/dev_ws/src/nav2_gradient_costmap_plugin', 'symlink_install': True, 'test_result_base': None}
+[2.164s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.169s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.169s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/chalin/dev_ws/src/ball_tracker' with build type 'ament_python'
+[2.170s] Level 1:colcon.colcon_core.shell:create_environment_hook('ball_tracker', 'ament_prefix_path')
+[2.220s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chalin/dev_ws/src/install/ball_tracker/share/ball_tracker/hook/ament_prefix_path.ps1'
+[2.223s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chalin/dev_ws/src/install/ball_tracker/share/ball_tracker/hook/ament_prefix_path.dsv'
+[2.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chalin/dev_ws/src/install/ball_tracker/share/ball_tracker/hook/ament_prefix_path.sh'
+[2.230s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.231s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.277s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/chalin/dev_ws/src/e_dollyv2' with build type 'ament_cmake'
+[2.277s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chalin/dev_ws/src/e_dollyv2'
+[2.277s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.277s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.346s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/chalin/dev_ws/src/lidar_camera_projection' with build type 'ament_python'
+[2.348s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_camera_projection', 'ament_prefix_path')
+[2.349s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chalin/dev_ws/src/install/lidar_camera_projection/share/lidar_camera_projection/hook/ament_prefix_path.ps1'
+[2.351s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chalin/dev_ws/src/install/lidar_camera_projection/share/lidar_camera_projection/hook/ament_prefix_path.dsv'
+[2.388s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chalin/dev_ws/src/install/lidar_camera_projection/share/lidar_camera_projection/hook/ament_prefix_path.sh'
+[2.390s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.390s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.476s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/chalin/dev_ws/src/nav2_gradient_costmap_plugin' with build type 'ament_cmake'
+[2.477s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chalin/dev_ws/src/nav2_gradient_costmap_plugin'
+[2.477s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.478s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.014s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/chalin/dev_ws/src/ball_tracker'
+[4.015s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.015s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.062s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chalin/dev_ws/src/build/e_dollyv2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chalin/dev_ws/src/install/lidar_camera_projection:/home/chalin/dev_ws/src/install/ball_tracker:/home/chalin/dev_ws/install/lidar_camera_projection:/opt/ros/jazzy /usr/bin/cmake --build /home/chalin/dev_ws/src/build/e_dollyv2 -- -j8 -l8
+[5.112s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/chalin/dev_ws/src/lidar_camera_projection'
+[5.112s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.112s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.169s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chalin/dev_ws/src/build/nav2_gradient_costmap_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chalin/dev_ws/src/install/lidar_camera_projection:/home/chalin/dev_ws/src/install/ball_tracker:/home/chalin/dev_ws/install/lidar_camera_projection:/opt/ros/jazzy /usr/bin/cmake --build /home/chalin/dev_ws/src/build/nav2_gradient_costmap_plugin -- -j8 -l8
+[5.173s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chalin/dev_ws/src/build/e_dollyv2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chalin/dev_ws/src/install/lidar_camera_projection:/home/chalin/dev_ws/src/install/ball_tracker:/home/chalin/dev_ws/install/lidar_camera_projection:/opt/ros/jazzy /usr/bin/cmake --build /home/chalin/dev_ws/src/build/e_dollyv2 -- -j8 -l8
+[5.261s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chalin/dev_ws/src/build/e_dollyv2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chalin/dev_ws/src/install/lidar_camera_projection:/home/chalin/dev_ws/src/install/ball_tracker:/home/chalin/dev_ws/install/lidar_camera_projection:/opt/ros/jazzy /usr/bin/cmake --install /home/chalin/dev_ws/src/build/e_dollyv2
+[5.519s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(e_dollyv2)
+[5.528s] Level 1:colcon.colcon_core.environment:checking '/home/chalin/dev_ws/src/install/e_dollyv2' for CMake module files
+[5.531s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chalin/dev_ws/src/build/e_dollyv2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chalin/dev_ws/src/install/lidar_camera_projection:/home/chalin/dev_ws/src/install/ball_tracker:/home/chalin/dev_ws/install/lidar_camera_projection:/opt/ros/jazzy /usr/bin/cmake --install /home/chalin/dev_ws/src/build/e_dollyv2
+[5.540s] Level 1:colcon.colcon_core.environment:checking '/home/chalin/dev_ws/src/install/e_dollyv2' for CMake config files
+[5.544s] Level 1:colcon.colcon_core.shell:create_environment_hook('e_dollyv2', 'cmake_prefix_path')
+[5.545s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/hook/cmake_prefix_path.ps1'
+[5.550s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/hook/cmake_prefix_path.dsv'
+[5.552s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/hook/cmake_prefix_path.sh'
+[5.555s] Level 1:colcon.colcon_core.environment:checking '/home/chalin/dev_ws/src/install/e_dollyv2/bin'
+[5.555s] Level 1:colcon.colcon_core.environment:checking '/home/chalin/dev_ws/src/install/e_dollyv2/lib/pkgconfig/e_dollyv2.pc'
+[5.556s] Level 1:colcon.colcon_core.environment:checking '/home/chalin/dev_ws/src/install/e_dollyv2/lib/python3.12/site-packages'
+[5.557s] Level 1:colcon.colcon_core.environment:checking '/home/chalin/dev_ws/src/install/e_dollyv2/bin'
+[5.558s] INFO:colcon.colcon_core.shell:Creating package script '/home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/package.ps1'
+[5.560s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/package.dsv'
+[5.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/package.sh'
+[5.583s] INFO:colcon.colcon_core.shell:Creating package script '/home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/package.bash'
+[5.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/package.zsh'
+[5.604s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chalin/dev_ws/src/install/e_dollyv2/share/colcon-core/packages/e_dollyv2)
+[5.607s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(e_dollyv2)
+[5.607s] Level 1:colcon.colcon_core.environment:checking '/home/chalin/dev_ws/src/install/e_dollyv2' for CMake module files
+[5.611s] Level 1:colcon.colcon_core.environment:checking '/home/chalin/dev_ws/src/install/e_dollyv2' for CMake config files
+[5.612s] Level 1:colcon.colcon_core.shell:create_environment_hook('e_dollyv2', 'cmake_prefix_path')
+[5.612s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/hook/cmake_prefix_path.ps1'
+[5.614s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/hook/cmake_prefix_path.dsv'
+[5.615s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/hook/cmake_prefix_path.sh'
+[5.617s] Level 1:colcon.colcon_core.environment:checking '/home/chalin/dev_ws/src/install/e_dollyv2/bin'
+[5.617s] Level 1:colcon.colcon_core.environment:checking '/home/chalin/dev_ws/src/install/e_dollyv2/lib/pkgconfig/e_dollyv2.pc'
+[5.618s] Level 1:colcon.colcon_core.environment:checking '/home/chalin/dev_ws/src/install/e_dollyv2/lib/python3.12/site-packages'
+[5.618s] Level 1:colcon.colcon_core.environment:checking '/home/chalin/dev_ws/src/install/e_dollyv2/bin'
+[5.619s] INFO:colcon.colcon_core.shell:Creating package script '/home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/package.ps1'
+[5.621s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/package.dsv'
+[5.623s] INFO:colcon.colcon_core.shell:Creating package script '/home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/package.sh'
+[5.626s] INFO:colcon.colcon_core.shell:Creating package script '/home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/package.bash'
+[5.627s] INFO:colcon.colcon_core.shell:Creating package script '/home/chalin/dev_ws/src/install/e_dollyv2/share/e_dollyv2/package.zsh'
+[5.665s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chalin/dev_ws/src/install/e_dollyv2/share/colcon-core/packages/e_dollyv2)
+[5.939s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chalin/dev_ws/src/build/nav2_gradient_costmap_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chalin/dev_ws/src/install/lidar_camera_projection:/home/chalin/dev_ws/src/install/ball_tracker:/home/chalin/dev_ws/install/lidar_camera_projection:/opt/ros/jazzy /usr/bin/cmake --build /home/chalin/dev_ws/src/build/nav2_gradient_costmap_plugin -- -j8 -l8
+[5.940s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chalin/dev_ws/src/build/nav2_gradient_costmap_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chalin/dev_ws/src/install/lidar_camera_projection:/home/chalin/dev_ws/src/install/ball_tracker:/home/chalin/dev_ws/install/lidar_camera_projection:/opt/ros/jazzy /usr/bin/cmake --install /home/chalin/dev_ws/src/build/nav2_gradient_costmap_plugin
+[6.050s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_gradient_costmap_plugin)
+[6.050s] Level 1:colcon.colcon_core.environment:checking '/home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin' for CMake module files
+[6.052s] Level 1:colcon.colcon_core.environment:checking '/home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin' for CMake config files
+[6.054s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chalin/dev_ws/src/build/nav2_gradient_costmap_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chalin/dev_ws/src/install/lidar_camera_projection:/home/chalin/dev_ws/src/install/ball_tracker:/home/chalin/dev_ws/install/lidar_camera_projection:/opt/ros/jazzy /usr/bin/cmake --install /home/chalin/dev_ws/src/build/nav2_gradient_costmap_plugin
+[6.054s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_gradient_costmap_plugin', 'cmake_prefix_path')
+[6.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/hook/cmake_prefix_path.ps1'
+[6.067s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/hook/cmake_prefix_path.dsv'
+[6.068s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/hook/cmake_prefix_path.sh'
+[6.078s] Level 1:colcon.colcon_core.environment:checking '/home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin/lib'
+[6.079s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_gradient_costmap_plugin', 'ld_library_path_lib')
+[6.079s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/hook/ld_library_path_lib.ps1'
+[6.081s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/hook/ld_library_path_lib.dsv'
+[6.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/hook/ld_library_path_lib.sh'
+[6.083s] Level 1:colcon.colcon_core.environment:checking '/home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin/bin'
+[6.084s] Level 1:colcon.colcon_core.environment:checking '/home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin/lib/pkgconfig/nav2_gradient_costmap_plugin.pc'
+[6.091s] Level 1:colcon.colcon_core.environment:checking '/home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin/lib/python3.12/site-packages'
+[6.091s] Level 1:colcon.colcon_core.environment:checking '/home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin/bin'
+[6.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/package.ps1'
+[6.095s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/package.dsv'
+[6.097s] INFO:colcon.colcon_core.shell:Creating package script '/home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/package.sh'
+[6.099s] INFO:colcon.colcon_core.shell:Creating package script '/home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/package.bash'
+[6.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/package.zsh'
+[6.105s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin/share/colcon-core/packages/nav2_gradient_costmap_plugin)
+[6.107s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_gradient_costmap_plugin)
+[6.108s] Level 1:colcon.colcon_core.environment:checking '/home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin' for CMake module files
+[6.109s] Level 1:colcon.colcon_core.environment:checking '/home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin' for CMake config files
+[6.109s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_gradient_costmap_plugin', 'cmake_prefix_path')
+[6.110s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/hook/cmake_prefix_path.ps1'
+[6.114s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/hook/cmake_prefix_path.dsv'
+[6.116s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/hook/cmake_prefix_path.sh'
+[6.120s] Level 1:colcon.colcon_core.environment:checking '/home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin/lib'
+[6.120s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_gradient_costmap_plugin', 'ld_library_path_lib')
+[6.121s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/hook/ld_library_path_lib.ps1'
+[6.125s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/hook/ld_library_path_lib.dsv'
+[6.126s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/hook/ld_library_path_lib.sh'
+[6.128s] Level 1:colcon.colcon_core.environment:checking '/home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin/bin'
+[6.128s] Level 1:colcon.colcon_core.environment:checking '/home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin/lib/pkgconfig/nav2_gradient_costmap_plugin.pc'
+[6.130s] Level 1:colcon.colcon_core.environment:checking '/home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin/lib/python3.12/site-packages'
+[6.135s] Level 1:colcon.colcon_core.environment:checking '/home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin/bin'
+[6.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/package.ps1'
+[6.138s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/package.dsv'
+[6.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/package.sh'
+[6.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/package.bash'
+[6.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/package.zsh'
+[6.144s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chalin/dev_ws/src/install/nav2_gradient_costmap_plugin/share/colcon-core/packages/nav2_gradient_costmap_plugin)
+[9.368s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chalin/dev_ws/src/build/ball_tracker': PYTHONPATH=/home/chalin/dev_ws/src/build/ball_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chalin/dev_ws/src/install/ball_tracker/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chalin/dev_ws/src/build/ball_tracker/build --no-deps symlink_data
+[9.388s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chalin/dev_ws/src/build/lidar_camera_projection': PYTHONPATH=/home/chalin/dev_ws/src/build/lidar_camera_projection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chalin/dev_ws/src/install/lidar_camera_projection/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chalin/dev_ws/src/build/lidar_camera_projection/build --no-deps symlink_data
+[13.296s] Level 1:colcon.colcon_core.shell:create_environment_hook('ball_tracker', 'pythonpath_develop')
+[13.308s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chalin/dev_ws/src/build/ball_tracker/share/ball_tracker/hook/pythonpath_develop.ps1'
+[13.308s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chalin/dev_ws/src/build/ball_tracker' returned '0': PYTHONPATH=/home/chalin/dev_ws/src/build/ball_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chalin/dev_ws/src/install/ball_tracker/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chalin/dev_ws/src/build/ball_tracker/build --no-deps symlink_data
+[13.391s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chalin/dev_ws/src/build/ball_tracker/share/ball_tracker/hook/pythonpath_develop.dsv'
+[13.392s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chalin/dev_ws/src/build/ball_tracker/share/ball_tracker/hook/pythonpath_develop.sh'
+[13.395s] Level 1:colcon.colcon_core.environment:checking '/home/chalin/dev_ws/src/install/ball_tracker' for CMake module files
+[13.400s] Level 1:colcon.colcon_core.environment:checking '/home/chalin/dev_ws/src/install/ball_tracker' for CMake config files
+[13.439s] Level 1:colcon.colcon_core.environment:checking '/home/chalin/dev_ws/src/install/ball_tracker/lib'
+[13.439s] Level 1:colcon.colcon_core.environment:checking '/home/chalin/dev_ws/src/install/ball_tracker/bin'
+[13.440s] Level 1:colcon.colcon_core.environment:checking '/home/chalin/dev_ws/src/install/ball_tracker/lib/pkgconfig/ball_tracker.pc'
+[13.441s] Level 1:colcon.colcon_core.environment:checking '/home/chalin/dev_ws/src/install/ball_tracker/lib/python3.12/site-packages'
+[13.441s] Level 1:colcon.colcon_core.shell:create_environment_hook('ball_tracker', 'pythonpath')
+[13.442s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chalin/dev_ws/src/install/ball_tracker/share/ball_tracker/hook/pythonpath.ps1'
+[13.475s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chalin/dev_ws/src/install/ball_tracker/share/ball_tracker/hook/pythonpath.dsv'
+[13.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chalin/dev_ws/src/install/ball_tracker/share/ball_tracker/hook/pythonpath.sh'
+[13.477s] Level 1:colcon.colcon_core.environment:checking '/home/chalin/dev_ws/src/install/ball_tracker/bin'
+[13.477s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ball_tracker)
+[13.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/chalin/dev_ws/src/install/ball_tracker/share/ball_tracker/package.ps1'
+[13.490s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chalin/dev_ws/src/install/ball_tracker/share/ball_tracker/package.dsv'
+[13.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/chalin/dev_ws/src/install/ball_tracker/share/ball_tracker/package.sh'
+[13.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/chalin/dev_ws/src/install/ball_tracker/share/ball_tracker/package.bash'
+[13.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/chalin/dev_ws/src/install/ball_tracker/share/ball_tracker/package.zsh'
+[13.496s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chalin/dev_ws/src/install/ball_tracker/share/colcon-core/packages/ball_tracker)
+[13.523s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_camera_projection', 'pythonpath_develop')
+[13.525s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chalin/dev_ws/src/build/lidar_camera_projection/share/lidar_camera_projection/hook/pythonpath_develop.ps1'
+[13.526s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chalin/dev_ws/src/build/lidar_camera_projection' returned '0': PYTHONPATH=/home/chalin/dev_ws/src/build/lidar_camera_projection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chalin/dev_ws/src/install/lidar_camera_projection/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chalin/dev_ws/src/build/lidar_camera_projection/build --no-deps symlink_data
+[13.527s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chalin/dev_ws/src/build/lidar_camera_projection/share/lidar_camera_projection/hook/pythonpath_develop.dsv'
+[13.529s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chalin/dev_ws/src/build/lidar_camera_projection/share/lidar_camera_projection/hook/pythonpath_develop.sh'
+[13.530s] Level 1:colcon.colcon_core.environment:checking '/home/chalin/dev_ws/src/install/lidar_camera_projection' for CMake module files
+[13.531s] Level 1:colcon.colcon_core.environment:checking '/home/chalin/dev_ws/src/install/lidar_camera_projection' for CMake config files
+[13.536s] Level 1:colcon.colcon_core.environment:checking '/home/chalin/dev_ws/src/install/lidar_camera_projection/lib'
+[13.537s] Level 1:colcon.colcon_core.environment:checking '/home/chalin/dev_ws/src/install/lidar_camera_projection/bin'
+[13.537s] Level 1:colcon.colcon_core.environment:checking '/home/chalin/dev_ws/src/install/lidar_camera_projection/lib/pkgconfig/lidar_camera_projection.pc'
+[13.538s] Level 1:colcon.colcon_core.environment:checking '/home/chalin/dev_ws/src/install/lidar_camera_projection/lib/python3.12/site-packages'
+[13.538s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_camera_projection', 'pythonpath')
+[13.539s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chalin/dev_ws/src/install/lidar_camera_projection/share/lidar_camera_projection/hook/pythonpath.ps1'
+[13.541s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chalin/dev_ws/src/install/lidar_camera_projection/share/lidar_camera_projection/hook/pythonpath.dsv'
+[13.544s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chalin/dev_ws/src/install/lidar_camera_projection/share/lidar_camera_projection/hook/pythonpath.sh'
+[13.546s] Level 1:colcon.colcon_core.environment:checking '/home/chalin/dev_ws/src/install/lidar_camera_projection/bin'
+[13.546s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lidar_camera_projection)
+[13.547s] INFO:colcon.colcon_core.shell:Creating package script '/home/chalin/dev_ws/src/install/lidar_camera_projection/share/lidar_camera_projection/package.ps1'
+[13.549s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chalin/dev_ws/src/install/lidar_camera_projection/share/lidar_camera_projection/package.dsv'
+[13.550s] INFO:colcon.colcon_core.shell:Creating package script '/home/chalin/dev_ws/src/install/lidar_camera_projection/share/lidar_camera_projection/package.sh'
+[13.551s] INFO:colcon.colcon_core.shell:Creating package script '/home/chalin/dev_ws/src/install/lidar_camera_projection/share/lidar_camera_projection/package.bash'
+[13.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/chalin/dev_ws/src/install/lidar_camera_projection/share/lidar_camera_projection/package.zsh'
+[13.553s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chalin/dev_ws/src/install/lidar_camera_projection/share/colcon-core/packages/lidar_camera_projection)
+[13.554s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[13.556s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[13.563s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[13.563s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[15.250s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[15.251s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[15.251s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[15.251s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[15.406s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[15.406s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[15.407s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chalin/dev_ws/src/install/local_setup.ps1'
+[15.414s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/chalin/dev_ws/src/install/_local_setup_util_ps1.py'
+[15.418s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chalin/dev_ws/src/install/setup.ps1'
+[15.422s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chalin/dev_ws/src/install/local_setup.sh'
+[15.425s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/chalin/dev_ws/src/install/_local_setup_util_sh.py'
+[15.434s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chalin/dev_ws/src/install/setup.sh'
+[15.531s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chalin/dev_ws/src/install/local_setup.bash'
+[15.533s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chalin/dev_ws/src/install/setup.bash'
+[15.537s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chalin/dev_ws/src/install/local_setup.zsh'
+[15.557s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chalin/dev_ws/src/install/setup.zsh'

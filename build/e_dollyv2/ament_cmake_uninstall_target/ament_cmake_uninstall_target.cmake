@@ -55,3 +55,6 @@ endforeach()
 message(STATUS "Execute custom uninstall script")
 
 # begin of custom uninstall code
+
+# uninstall files installed using the symlink install functions
+include("/home/chalin/dev_ws/build/e_dollyv2/ament_cmake_symlink_install/ament_cmake_symlink_install_uninstall_script.cmake")
